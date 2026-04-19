@@ -4,7 +4,7 @@ Este é um projeto de um portal turístico interativo desenvolvido como avaliaç
 
 ## Integrantes do Grupo
 * Pedro Rebechi Toledo
-* Lucas Deffavari
+* Lucas Defavari
 * Paulo Eduardo de Lima
 
 ## Tecnologias Utilizadas
