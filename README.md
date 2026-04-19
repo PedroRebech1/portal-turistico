@@ -13,4 +13,4 @@ Este é um projeto de um portal turístico interativo desenvolvido como avaliaç
 
 ## Links do Projeto
 * **Repositório:** https://github.com/PedroRebech1/portal-turistico
-* **Site Publicado (GitHub Pages):**
+* **Site Publicado (GitHub Pages):** https://pedrorebech1.github.io/portal-turistico/**
