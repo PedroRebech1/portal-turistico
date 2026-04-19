@@ -1,0 +1,234 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    padding-bottom: 80px; 
+}
+
+header {
+    background: linear-gradient(135deg, #009c3b, #ffdf00);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+nav {
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background: white;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #009c3b;
+    color: white;
+}
+
+.ativo {
+    background: #ffdf00;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    flex: 3;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #009c3b;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+aside {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #009c3b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #007a2f;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+
+.imagen{
+    position: relative;
+    width: 450px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.txfrente{
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    width: 700px;
+    color: black;
+    font-size: 24px;
+}
+
+.video{
+    text-align: center;
+    margin: 30px;
+}
+
+/* Caixas laterais do Aside */
+.caixa-atendimento, .caixa-comida, .caixa-7maravilhas, .caixa-paginiciaal {
+    border: 2px solid #009c3b;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f4fff8;
+}
+
+/* Estilos para as novas seções da Página Inicial */
+.video-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.secao-destaque {
+    margin-top: 40px;
+}
+
+.secao-destaque h3 {
+    color: #009c3b;
+    margin-bottom: 10px;
+}
+
+.link-saiba-mais {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link-saiba-mais:hover {
+    color: #009c3b;
+}
+
+.acesso-rapido {
+    margin-top: 30px;
+}
+
+.acesso-rapido h3 {
+    color: #009c3b;
+    margin-bottom: 15px;
+}
+
+.lista-links {
+    list-style: none;
+    padding: 0;
+    line-height: 2;
+}
+
+.lista-links a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.3s;
+}
+
+.lista-links a:hover {
+    padding-left: 5px;
+    color: #009c3b;
+}
