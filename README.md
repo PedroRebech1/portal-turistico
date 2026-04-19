@@ -12,5 +12,5 @@ Este é um projeto de um portal turístico interativo desenvolvido como avaliaç
 * CSS3 (Flexbox, Media Queries, Hover Effects)
 
 ## Links do Projeto
-* **Repositório:** 
+* **Repositório:** https://github.com/PedroRebech1/portal-turistico
 * **Site Publicado (GitHub Pages):**
